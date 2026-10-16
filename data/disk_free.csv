@@ -1,0 +1,12 @@
+disk_free|pct|change
+Unspecified|0.00|0.00
+Less than 10 GB|0.76|-0.12
+10 GB to 99 GB|14.37|-1.55
+100 GB to 249 GB|22.03|-1.95
+250 GB to 499 GB|21.94|-1.07
+500 GB to 749 GB|10.80|-0.27
+750 GB to 999 GB|8.29|-0.43
+1 TB to 2 TB|9.59|+0.34
+2 TB to 3 TB|2.81|+0.50
+3 TB to 4 TB|2.11|+0.47
+Above 4 TB|7.28|+4.06

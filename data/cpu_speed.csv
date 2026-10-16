@@ -1,0 +1,12 @@
+cpu_speed|pct|change
+Unspecified|0.00|0.00
+Below 1.4 Ghz|0.65|-0.09
+1.4 Ghz to 1.49 Ghz|0.12|-0.02
+1.5 Ghz to 1.69 Ghz|0.15|-0.03
+1.7 Ghz to 1.99 Ghz|0.87|-0.12
+2.0 Ghz to 2.29 Ghz|2.98|+0.10
+2.3 Ghz to 2.69 Ghz|19.48|-0.50
+2.7 Ghz to 2.99 Ghz|7.92|-0.41
+3.0 Ghz to 3.29 Ghz|4.57|-0.51
+3.3 Ghz to 3.69 Ghz|11.96|+0.25
+3.7 Ghz and above|2.48|-0.19

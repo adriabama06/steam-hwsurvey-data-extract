@@ -1,0 +1,9 @@
+disk_total|pct|change
+Unspecified|1.17|+1.09
+Less than 10 GB|0.00|0.00
+10 GB to 99 GB|0.14|-0.04
+100 GB to 249 GB|4.65|-0.79
+250 GB to 499 GB|15.86|-1.83
+500 GB to 749 GB|2.17|-0.25
+750 GB to 999 GB|22.71|-1.96
+Above 1 TB|53.30|+3.79
