@@ -346,11 +346,11 @@ def _parse_main_details(details):
 def save_to_csv(sections, filename, category_name):
     """
     Saves the monthly sections to a CSV file.
-    Format: category|may|jun|jul|aug|sep|change
+    Format: category,may,jun,jul,aug,sep,change
     """
     with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
-        # Use pipe as separator
-        writer = csv.writer(csvfile, delimiter='|')
+        # Use comma as separator (valid CSV)
+        writer = csv.writer(csvfile, delimiter=',')
 
         # CSV header
         header = [category_name] + [m.lower() for m in MONTHS] + ['change']
@@ -373,11 +373,11 @@ def save_to_csv(sections, filename, category_name):
 def save_main_category_to_csv(rows, filename, category_name):
     """
     Saves one main-page category (no month history, only pct + change).
-    Format: category|pct|change
+    Format: category,pct,change
     Subgroup headers (Windows/OSX/Linux) are saved as === NAME === rows.
     """
     with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.writer(csvfile, delimiter='|')
+        writer = csv.writer(csvfile, delimiter=',')
         writer.writerow([category_name, 'pct', 'change'])
         for row in rows:
             if row.get('is_subheader'):
